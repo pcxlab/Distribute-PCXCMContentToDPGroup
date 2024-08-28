@@ -1,7 +1,7 @@
 ﻿# use below line if you alrady added the module to powershell module folder (C:\Program Files\WindowsPowerShell\Modules), if not contiunue
 # Import-Module ContentDistribution
 
-#Set current directory
+#Set current directory Script Root
 Set-Location $PSScriptRoot
 
 #Import from current directory

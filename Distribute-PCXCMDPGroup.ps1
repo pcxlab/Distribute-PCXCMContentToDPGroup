@@ -5,6 +5,7 @@
 Set-Location $PSScriptRoot
 
 #Import from current directory
+#We can also use directly name if we copy to module directly of the machine 
 Import-Module .\ContentDistribution
 
 DistributeToDPGroup -applicationName "Your_Applicatoin_Name" -distributionPointGroupName "Your_DP_Group_Name"
